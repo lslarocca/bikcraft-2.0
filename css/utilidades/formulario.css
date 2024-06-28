@@ -32,7 +32,7 @@
 .form input[type="tel"]:focus,
 .form textarea:focus {
   outline: none;
-  border-color: var(--cro-p1);
+  border-color: var(--cor-p1);
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
 }
