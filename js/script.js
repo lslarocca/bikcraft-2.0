@@ -25,7 +25,7 @@ function ativarProduto(parametro) {
 parametros.forEach(ativarProduto);
 
 //Perguntas Frequentes
-
+const perguntas = document.querySelectorAll('.perguntas button');
 function ativarPergunta(event) {
   const pergunta = event.currentTarget;
   const controls = pergunta.getAttribute('aria-controls');
@@ -41,5 +41,3 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
-
-const perguntas = document.querySelectorAll('.perguntas button');
